@@ -31,8 +31,8 @@ img {
 	color: #000;
 	font-weight: bold;
 	text-decoration: none;
+	display:block;
 	padding: .75em;
-	display: block;
 }
 
 .nav-menu li {
@@ -42,6 +42,7 @@ img {
 .nav-menu a:hover {
 	background-color: #000;
 	color: #4169e1;
+	display:block;
 }
 
 .nav-menu ul {
@@ -53,9 +54,15 @@ img {
 	font-family: Arial;
 }
 
+
 .nav-menu ul li {
 	list-style: none;
 	display: inline-block;
+}
+
+.nav-item {
+	width: 100%;
+	/*display: block;*/
 }
 
 .nav-menu ul ul {
@@ -68,10 +75,6 @@ img {
 	display: inline-block;
 	border: 2px solid #000;
 	left: 0;
-}
-
-.nav-menu ul ul ul {
-	margin: -40px 0 0 140px;
 }
 
 
