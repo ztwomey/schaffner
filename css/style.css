@@ -22,17 +22,14 @@ body {
 	background-size: cover;
 }
 
-.primary-content h1 {
-	font-family: Arial;
-	border-top: 2px solid #000;
-	border-bottom: 2px solid #000;
-	background-color: #4169e1;
-}
+
 
 /*Navigation Styling*/
 
 .nav-menu {
-	border-bottom: 2px solid #000;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
 }
 
 .nav-menu a {
@@ -87,12 +84,20 @@ body {
 
 
 
-/*Content Styling*/
+/*Home Page Styling*/
 
 .primary-content {
 	text-align: center;
-	margin-top: 3em;
 	font-family: Arial;
+	border: 2px solid #000;
+}
+
+.primary-content h1 {
+	font-family: Arial;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	background-color: #4169e1;
+	margin-top: 2em;
 }
 
 .news {
@@ -109,6 +114,9 @@ body {
 
 .foot ol {
 	list-style: none;
+	position: absolute;
+	bottom: 0px;
+	width: 100%
 }
 
 /*About Page Content Styling*/
@@ -116,6 +124,7 @@ body {
 .about {
 	text-align: center;
 	padding: 0 1em;
+	border: 2px solid #000;
 }
 
 .about img {
@@ -133,12 +142,16 @@ body {
 
 .transbox {
 	max-width: 100%;
-	background-color: #fff;
-	border: 2px solid #000;
-	opacity: 0.9;
+	background: rgba(255,255,255,0.8);
+	min-height: 100%;
+	position: relative;
 }
 
 /*Activities Page Styling*/
+
+.activities {
+	border: 2px solid #000;
+}
 
 .activities h1{
 	text-align: center;
@@ -161,3 +174,22 @@ body {
 	background: #000;
 	position: absolute;
 }
+
+
+/*Teachers Page Styling*/
+
+.teachers {
+	border: 2px solid #000;
+}
+
+
+/*Newsletter Page Styling*/
+
+.newsletter {
+	border: 2px solid #000;
+}
+
+
+
+
+
