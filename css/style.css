@@ -2,6 +2,14 @@
 	box-sizing: border-box;
 }
 
+.transbox {
+	max-width: 100%;
+	background: rgba(255,255,255,0.8);
+	position: relative;
+   border: 2px solid #000;
+	min-height: 100%;
+}
+
 
 header {
 	height: 11em;
@@ -22,17 +30,17 @@ body {
 	background-size: cover;
 }
 
+html, body {
+	height: 100%;
+}
+
 
 
 /*Navigation Styling*/
 
 .nav-menu {
 	border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
-/*
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-*/
+   border-bottom: 2px solid #000;
 }
 
 .nav-menu a {
@@ -70,7 +78,6 @@ body {
 
 .nav-item {
 	width: 100%;
-/*	display: block;*/
 }
 
 .nav-menu ul ul {
@@ -118,7 +125,9 @@ body {
 	list-style: none;
 	position: absolute;
 	bottom: 0px;
-	width: 100%
+	width: 100%;
+	padding: 0;
+	left: 0;
 }
 
 /*About Page Content Styling*/
@@ -141,13 +150,6 @@ body {
 	margin-bottom: 5em;
 }
 
-.transbox {
-	max-width: 100%;
-	background: rgba(255,255,255,0.8);
-	position: relative;
-    min-height: 100%;
-    border: 2px solid #000;
-}
 
 /*Activities Page Styling*/
 
