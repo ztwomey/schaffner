@@ -17,7 +17,6 @@ $(".jump-images a").click(function(event){
   
   var captionText = $(this).children("img").attr("alt");
   $caption.text(captionText);
-  console.log("help");
 });
 
 $overlay.click(function(){
