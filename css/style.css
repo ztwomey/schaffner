@@ -40,7 +40,7 @@ html, body {
 
 .nav-menu {
 	border-top: 2px solid #000;
-   border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 .nav-menu a {
@@ -48,7 +48,7 @@ html, body {
 	font-weight: bold;
 	text-decoration: none;
 	display:block;
-	padding: .75em;
+	padding: .75em 1.5em;
 }
 
 .nav-menu li {
@@ -98,15 +98,14 @@ html, body {
 
 .primary-content {
 	text-align: center;
-	font-family: Arial;
 }
 
 .primary-content h1 {
-	font-family: Arial;
 	border-top: 2px solid #000;
 	border-bottom: 2px solid #000;
 	background-color: #4169e1;
 	margin-top: 2em;
+    width: 100%;
 }
 
 .news {
@@ -128,6 +127,10 @@ html, body {
 	width: 100%;
 	padding: 0;
 	left: 0;
+}
+
+.primary-content img {
+    width: 100%;
 }
 
 /*About Page Content Styling*/
@@ -295,9 +298,37 @@ html, body {
 /*Media Queries*/
 
 
-/*869px*/
+@media (max-width: 896px){
+    .nav-menu ul li {
+        display: inline;
+    }
+    .nav-menu ul li a {
+        height: 2em;
+    }
+    
+    .nav-menu ul li ul li {
+        display: none;
+    }
+    
+    .grade h1 {
+        margin-top: 1em;
+    }
+    
+    .teachpics li {
+        margin-top: 0;
+    }
+}
 
 
+@media (max-width: 375px){
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    .teachpics a {
+        display: none;
+    }
+}
 
 
 
