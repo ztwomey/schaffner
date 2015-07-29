@@ -282,14 +282,26 @@ html, body {
     text-align: center;
 }
 
+.signup label {
+	margin-top: 2em;
+	display: block;
+}
+
 .signup input {
     margin: .3em;
     border-color: #000;
+	 max-width: 35%;
+	 width: 100%;
+}
+
+.signup button {
+	display: block;
+	margin: 1em auto;
 }
 
 .newsletter p {
     text-align: center;
-    margin-top: 5em;
+    margin-top: 4em;
     padding: 0 5em;
 }
 
@@ -317,6 +329,11 @@ html, body {
     .teachpics li {
         margin-top: 0;
     }
+	
+	.newsletter p {
+		padding: 0 1.5em;
+		margin-top: 1em;
+	}
 }
 
 
